@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="questoes" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Questões.</name>
+    <description>
+        Aplicativo para consulta em repositório de dados com problemas matemáticos da OBMEP e do ENEM.
+    </description>
+    <author email="itssabbie@gmail.com">
+        Abigail Arruda
+    </author>
+    <link href="res/android/icon-96-xhdpi.png" rel="shortcut icon" />
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+        <icon density="ldpi" src="res/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="res/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="res/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="res/android/icon-96-xhdpi.png" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="browser" spec="^4.1.0" />
+    <plugin name="cordova-plugin-whitelist" spec="^1.3.2" />
+</widget>

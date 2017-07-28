@@ -1,0 +1,19 @@
+# Android
+platforms/android/assets/www
+platforms/android/bin/
+platforms/android/gen/
+platforms/android/res/xml/config.xml
+
+# Browser
+platforms/browser
+platforms/browser/build
+platforms/browser/cordova
+platforms/browser/css
+platforms/browser/img
+platforms/browser/js
+platforms/browser/platform_www
+platforms/browser/res
+platforms/browser/www
+
+# Modules
+node_modules

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width" />
+  <link href="css/bootstrap.css" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" />
+  <link href="css/list.css" rel="stylesheet" />
+  <link href="css/sobre.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto:400,400i,700" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+  <title>Questões | Busca</title>
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="navbar navbar-default" role="navigation">
+      <div class="container">
+          <div class="navbar-header">
+              <button style="float: left;" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand text-lowercase" href="index.html">Questões.</a>
+          </div>
+          <div class="navbar-collapse collapse navbar-right">
+              <ul class="nav navbar-nav">
+                  <li><a href="index.html">Início</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Prova
+            <ul class="dropdown-menu">
+              <li><a href="list.html#ENEM" onclick="location.reload(true)">ENEM</a></li>
+                  <li><a href="list.html#OBMEP" onclick="location.reload(true)">OBMEP</a></li>
+              </ul>
+              </a>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Tipo
+            <ul class="dropdown-menu">
+              <li><a href="list.html#Múltipla Escolha" onclick="location.reload(true)">Múltipla Escolha</a></li>
+              <li><a href="list.html#Discursiva" onclick="location.reload(true)">Discursiva</a></li>
+              </ul>
+              </a>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Conteúdo
+            <ul class="dropdown-menu">
+              <li><a href="list.html#Conjuntos" onclick="location.reload(true)">Conjuntos</a></li>
+              <li><a href="list.html#Função Polinomial" onclick="location.reload(true)">Função Polinomial</a></li>
+              <li><a href="list.html#Função Modular" onclick="location.reload(true)">Função Modular</a></li>
+              <li><a href="list.html#Função Exponencial" onclick="location.reload(true)">Função Exponencial</a></li>
+              <li><a href="list.html#Função Trigonométrica" onclick="location.reload(true)">Função Trigonométrica</a></li>
+              <li><a href="list.html#Matemática Financeira" onclick="location.reload(true)">Matemática Financeira</a></li>
+              <li><a href="list.html#Progressões" onclick="location.reload(true)">Progressões</a></li>
+              <li><a href="list.html#Geometria Plana" onclick="location.reload(true)">Geometria Plana</a></li>
+              <li><a href="list.html#Trigonometria" onclick="location.reload(true)">Trigonometria</a></li>
+              <li><a href="list.html#Matrizes, Determinantes e Sistemas Lineares" onclick="location.reload(true)">Matrizes, Determinantes e Sistemas Lineares</a></li>
+              <li><a href="list.html#Análise Combinatória e Probabilidade" onclick="location.reload(true)">Análise Combinatória e Probabilidade</a></li>
+              <li><a href="list.html#Estatística" onclick="location.reload(true)">Estatística</a></li>
+              <li><a href="list.html#Geometria Espacial" onclick="location.reload(true)">Geometria Espacial</a></li>
+              <li><a href="list.html#Geometria Analítica" onclick="location.reload(true)">Geometria Analítica</a></li>
+              <li><a href="list.html#Números Complexos, Polinômios e Equações Polinomiais" onclick="location.reload(true)">Números Complexos, Polinômios e Equações Polinomiais</a></li>
+              </ul>
+              </a>
+              </li>
+              <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dificuldade
+            <ul class="dropdown-menu">
+              <li><a href="list.html#Fácil" onclick="location.reload(true)">Fácil</a></li>
+              <li><a href="list.html#Médio" onclick="location.reload(true)">Médio</a></li>
+              <li><a href="list.html#Difícil" onclick="location.reload(true)">Difícil</a></li>
+              </ul>
+              </a>
+              </li>
+              <li><a href="sobre.html">Sobre</a></li>
+              </ul>
+          </div>
+      </div>
+  </div>
+  <div class="container q">
+      <ul class="list-unstyled" id="lista">
+          <li>
+              <table class="table table-bordered">
+                  <tr>
+                      <th><a href="questao.html#0">Questão X</a></th>
+                  </tr>
+                  <tr>
+                      <td>
+                          <span style="background: #ff3b30;" class="label">Origem</span>
+                          <span style="background: #5ac8fa;" class="label">Ano</span>
+                          <span style="background: #4cd964;" class="label">Conteúdo</span>
+                          <span style="background: #f1c40f;" class="label">Dificuldade</span>
+                      </td>
+                  </tr>
+                  <tr class="text-justify">
+                      <td>Enunciado.</td>
+                  </tr>
+              </table>
+          </li>
+      </ul>
+  </div>
+  <footer class="footer text-center">
+      <div class="container">
+          <span class="credit">questões.</span><span class="small"> © 2017</span>
+      </div>
+  </footer>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js" type="text/javascript"></script>
+  <script src="js/db.js" type="text/javascript"></script>
+  <script src="cordova.js" type="text/javascript"></script>
+  <script src="js/index.js" type="text/javascript"></script>
+  <script>
+    window.onload = function() {
+        var v = (window.location.hash).replace("#", '');
+        if (v == "Fácil" || v == "Médio" || v == "Difícil") { // Dificuldade
+            questao.difficulty(v);
+        } else if (v == "OBMEP" || v == "ENEM") { // Prova
+            questao.source(v);
+        } else if (v == "Conjuntos" || v == "Função Polinomial" || v == "Função Modular" || v == "Função Exponencial" || v == "Função Trigonométrica" || v == "Matemática Financeira" || v == "Progressões" || v == "Geometria Plana" || v == "Trigonometria" || v == "Matrizes, Determinantes e Sistemas Lineares" || v == "Análise Combinatória e Probabilidade" || v == "Estatística" || v == "Geometria Espacial" || v == "Geometria Analítica" || v == "Números Complexos, Polinômios e Equações Polinomiais") { // Conteúdo
+            questao.content(v);
+        } else if (v == "Ano") { // Ano
+            questao.year();
+        } else if (v == "Todas") { // Todas
+            questao.select();
+        } else if (v == "Múltipla Escolha") { // Múltipla Escolha
+            questao.multiple();
+        } else if (v == "Discursiva") { // Discursiva
+            questao.theoretical();
+        } else {
+            questao.go(v);
+        }
+    }
+  </script>
+</body>
+</html>

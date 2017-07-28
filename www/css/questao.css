@@ -1,0 +1,40 @@
+.container.q {
+    margin-top: 30px!important;
+}
+
+.title-1 {
+    border-radius: 4px;
+    color: #fff;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    width: 100%!important;
+}
+
+.title-1 {
+    background: #222;
+    border: 2px solid #1a1a1a;
+}
+
+.title-1 h1 {
+    font-size: 20px!important;
+}
+
+.image {
+    width: 100%!important;
+}
+
+ul {
+    margin: 25px 0 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    list-style-type: lower-latin;
+}
+
+@media (max-width: 767px) {
+    .image {
+        margin: 15px 0;
+    }
+}
