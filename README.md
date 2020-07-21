@@ -7,7 +7,8 @@
   <a href="#-objetivos">Objetivos</a> |  
   <a href="#-ferramentas">Ferramentas</a> | 
   <a href="#-considerações">Considerações</a> | 
-  <a href="#-referências">Referências</a>
+  <a href="#-referências">Referências</a> |
+  <a href="https://suap.ifgoiano.edu.br/media/documentos/arquivos/IC_RENATO_1.pdf">Publicação<a/>
 </p>
 
 ## 👩🏻‍💻 Projeto
